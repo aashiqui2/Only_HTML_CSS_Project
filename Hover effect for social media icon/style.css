@@ -21,11 +21,15 @@
     /* background: #fff; */
     margin: 10px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-    /* background-image: linear-gradient(#fff 50%,red 50%); */
-    background-size: 100% 200%;
-    /* background-position: 0% 5%; */
-    transition:background-position 0.5s,colr 0.5s;
 
+    /* color start from top to  bottom  */
+    /* background-image: linear-gradient(#fff 50%,red 50%); */
+    /* first value: width of the image, second value: height */
+    background-size: 100% 200%;
+    /* x and y axis values  */
+    /* background-position: 0% 5%; */
+    /* transition:background-position 0.5s,color 0.5s; */
+    transition:all 0.5s;
 }
 .icons a:nth-child(1){
     color:#1976d3;
@@ -41,6 +45,8 @@
     background-image: linear-gradient(#fff 50%,#03a9f5 50%);
 }
 .icons :hover{
+    /* this moves upward to the top refer mdn position property with this (background-size: 100% 200%;
+    background-position: 0% 100%;) */
     background-position: 0% 100%;
     color:#fff;
 }
