@@ -5,10 +5,9 @@
 }
 .hov {
 
-    display: inline-block;
     position: relative;
     text-decoration: none;
-    width: auto
+
 }
 .magic {
     background-color: #073042;
