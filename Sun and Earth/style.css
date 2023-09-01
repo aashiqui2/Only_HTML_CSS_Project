@@ -66,8 +66,8 @@ body{
     height: 1.2em;
     background-color: silver;
 }
-/* @keyframes orbit{
+@keyframes orbit{
     to{
         transform: rotate(360deg);
     }
-} */
+}
